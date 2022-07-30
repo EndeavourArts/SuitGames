@@ -1,0 +1,118 @@
+:root{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2d3032;
+}
+
+#app{
+    margin-top: 20px;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+.summary {
+    background-color: none;
+    width: 60%;
+    height: 40%;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10%;
+    border: 3px solid #9b2aec;
+    box-shadow: 0px 0px 8px  #c685f5;
+}
+
+#title {
+    color: rgb(233, 222, 238) ;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#inGame {
+    color: rgb(233, 222, 238) ;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#result {
+    color: rgb(233, 222, 238) ;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.options1 {
+    text-align: center;
+    width: 30%;
+    margin: 30px 15px ;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    background-color: none;
+    border: 5px solid #78addc;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #a9c7e1;
+    
+}
+
+.options1:hover{
+    cursor: pointer;
+    background-color: #65a8e1;
+    border: none;
+    transform: scale(110%);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+}
+
+.options2 {
+    text-align: center;
+    width: 30%;
+    margin: 30px 15px ;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    background-color: none;
+    border: 5px solid #db5ddb;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #eea7ee;
+    
+}
+
+.options2:hover{
+    cursor: pointer;
+    background-color: #db5ddb;
+    border: none;
+    transform: scale(110%);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+}
+.options3 {
+    text-align: center;
+    width: 30%;
+    margin: 30px 15px ;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    background-color: none;
+    border: 5px solid #bbff9e;
+    border-radius: 10%;
+    box-shadow: 0 0 5px #eaf9e4;
+}
+
+.options3:hover{
+    cursor: pointer;
+    background-color:#bbff9e;
+    border: none;
+    transform: scale(110%);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    
+}
+
+
